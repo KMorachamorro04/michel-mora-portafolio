@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Frontend | Michel Mora</title>
+  <!-- Fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de Navegación -->
+  <header class="navbar">
+    <div class="logo">DevPortafolio</div>
+    <nav>
+      <a href="#about">Sobre mí</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#process">Mi Proceso</a>
+      <a href="#contact" class="btn-primary-outline">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Principal / Sobre Mí -->
+    <section id="about" class="hero">
+      <div class="hero-content">
+        <p class="greeting">Hola, soy <strong>Michel Mora</strong></p>
+        <h1>Desarrollador Frontend <span class="highlight">Junior</span></h1>
+        <p class="description">
+          Me apasiona crear interfaces web modernas y funcionales usando herramientas de última generación.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Ver mis trabajos</a>
+        </div>
+      </div>
+      <div class="hero-decoration">
+        <div class="circle"></div>
+        <div class="circle-small"></div>
+      </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="projects" class="projects">
+      <h2>Mis Proyectos</h2>
+      <div class="cards-grid">
+        <!-- Tarjeta 1 -->
+        <div class="card">
+          <div class="card-img">
+            <img src="/encanto.PNG" alt="Encanto Véline" class="project-image">
+            <div class="overlay">
+              <span>E-commerce</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Encanto Véline - E-commerce de Lencería</h3>
+            <p>Tienda virtual de lujo con catálogo dinámico, vista de imagen en alta resolución (Zoom) y pedidos directos a WhatsApp.</p>
+            <a href="https://encanto-veline-f5bbf.netlify.app/" target="_blank" class="btn-secondary">Ver Demo</a>
+          </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="card">
+          <div class="card-img">
+            <img src="/cliente.PNG" alt="Express Learning" class="project-image">
+            <div class="overlay">
+              <span>Corporativo</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Express Learning - Proyecto Corporativo</h3>
+            <p>Plataforma educativa con diseño moderno, estructurada para una navegación intuitiva y optimizada para dispositivos móviles.</p>
+            <a href="https://express-learning-proycliente-f6aa3c.netlify.app/" target="_blank" class="btn-secondary">Ver Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Proceso -->
+    <section id="process" class="process">
+      <div class="process-container">
+        <h2>Mi Proceso de Desarrollo</h2>
+        <p class="process-desc">
+          Utilizo Inteligencia Artificial y herramientas como <strong>Vite</strong> y <strong>Node.js</strong> para
+          acelerar el desarrollo y entregar productos de alta calidad, combinando eficiencia con diseño de vanguardia.
+        </p>
+        <div class="tech-stack">
+          <div class="tech-item">Vite</div>
+          <div class="tech-item">Node.js</div>
+          <div class="tech-item">IA Integration</div>
+          <div class="tech-item">HTML / CSS / JS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact">
+      <div class="contact-box">
+        <h2>¿Listo para empezar?</h2>
+        <p>Estoy disponible para nuevos proyectos y oportunidades laborales.</p>
+        <a href="https://wa.me/3014313926?text=Hola%20Michel%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20servicios%20de%20desarrollo%20web." target="_blank" class="btn-whatsapp">Hablemos por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Michel Mora. Todos los derechos reservados.</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
